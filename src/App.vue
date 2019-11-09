@@ -1,12 +1,24 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Dashboard</router-link>|
+      <router-link to="/league">League</router-link>|
+      <router-link to="/team">Team</router-link>|
+      <router-link to="/matchup">MatchUp</router-link>|
+      <router-link to="/signin">signin</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
+
+<script>
+/* eslint-disable */
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+export default {
+  name: 'App'
+}
+</script>
 
 <style>
 #app {
